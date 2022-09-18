@@ -1,0 +1,21 @@
+<header>
+  <h1>
+    A letter to Santa
+  </h1>
+</header>
+
+<main>
+  <form method="post" action="/santa-wish">
+    <p class="bold">Ho ho ho, what you want for christma?</p>
+
+    <label>who are you?</label>
+    <input name="userid" placeholder="charlie.brown" />
+
+    <p id="error"></p>
+    <label>what do you want for christmas?</label>
+    <textarea id="wish" name="wish" rows="10" cols="45" minlength="5" maxlength="100" placeholder="Gifts!"></textarea>
+
+    <br />
+    <button type="submit" id="submit-letter">Send</button>
+  </form>
+</main>
